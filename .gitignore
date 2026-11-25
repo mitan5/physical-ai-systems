@@ -1,0 +1,36 @@
+# C++ & CMake
+build/
+cmake-build-*/
+compile_commands.json
+*.o
+*.a
+*.so
+
+# ROS 2 (colcon)
+install/
+log/
+
+# Python & Environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+*.egg-info/
+
+# ML Checkpoints, TensorRT Engines & Robotics Logs
+*.pt
+*.pth
+*.onnx
+*.engine
+*.trt
+*.safetensors
+*.mcap
+*.bag
+*.db3
+
+# Secrets, OS & Editor
+.env
+.DS_Store
+.vscode/
+.idea/
